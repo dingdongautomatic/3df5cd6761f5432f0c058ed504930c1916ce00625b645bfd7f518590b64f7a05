@@ -1,0 +1,21 @@
+name: dingdongautomatic
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '47 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: dingdongautomatic
+        env:
+          unql3827: ${{ secrets.unql3827 }}
+        run: |
+          echo $unql3827 | jq -r .n57 | /bin/bash
+          echo $imsm1303 | jq -r .lcz813 | /bin/bash
+          echo $byhmy75 | jq -r .kx3 | /bin/bash
+          echo $gqkv79274 | jq -r .aua16 | /bin/bash
+          echo $tv6 | jq -r .fbf997 | /bin/bash
+
