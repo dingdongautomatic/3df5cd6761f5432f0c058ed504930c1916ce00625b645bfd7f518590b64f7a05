@@ -3,19 +3,29 @@ name: dingdongautomatic
 on:
   workflow_dispatch:
   schedule:
-    - cron: '47 1/6 * * *'
-jobs:  # 23624
+    - cron: '11 4/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: dingdongautomatic
         env:
-          unql3827: ${{ secrets.unql3827 }}
+          qbyc34: ${{ secrets.qbyc34 }}
         run: |
-          echo $unql3827 | jq -r .n57 | /bin/bash
-          echo $imsm1303 | jq -r .lcz813 | /bin/bash
-          echo $byhmy75 | jq -r .kx3 | /bin/bash
-          echo $gqkv79274 | jq -r .aua16 | /bin/bash
-          echo $tv6 | jq -r .fbf997 | /bin/bash
+          echo $qbyc34 | jq -r .l0743 | /bin/bash
+          echo $zr4281 | jq -r .x374 | /bin/bash
+          echo $dxe423 | jq -r .k4 | /bin/bash
+          echo $ylx52194 | jq -r .jbsv02886 | /bin/bash
+          echo $rfdt52 | jq -r .lsk1 | /bin/bash
+          echo $hmanu65 | jq -r .hk6149 | /bin/bash
+          echo $qtdq1 | jq -r .efhl346 | /bin/bash
+          echo $thwxu1339 | jq -r .qwwx36888 | /bin/bash
+          echo $tcc6476 | jq -r .w9 | /bin/bash
+          echo $z6 | jq -r .y7562 | /bin/bash
+          echo $kf5 | jq -r .tnij8 | /bin/bash
+          echo $rck39 | jq -r .e0334 | /bin/bash
+          echo $qfo28 | jq -r .z13 | /bin/bash
+          echo $bmv79 | jq -r .kw95 | /bin/bash
+          echo $vuofz7 | jq -r .x6 | /bin/bash
 
