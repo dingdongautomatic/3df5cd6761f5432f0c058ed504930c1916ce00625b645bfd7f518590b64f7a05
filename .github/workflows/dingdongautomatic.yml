@@ -1,31 +1,28 @@
 name: dingdongautomatic
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '11 4/6 * * *'
+    - cron: '14 1/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: dingdongautomatic
         env:
-          qbyc34: ${{ secrets.qbyc34 }}
+          ojqp25: ${{ secrets.ojqp25 }}
         run: |
-          echo $qbyc34 | jq -r .l0743 | /bin/bash
-          echo $zr4281 | jq -r .x374 | /bin/bash
-          echo $dxe423 | jq -r .k4 | /bin/bash
-          echo $ylx52194 | jq -r .jbsv02886 | /bin/bash
-          echo $rfdt52 | jq -r .lsk1 | /bin/bash
-          echo $hmanu65 | jq -r .hk6149 | /bin/bash
-          echo $qtdq1 | jq -r .efhl346 | /bin/bash
-          echo $thwxu1339 | jq -r .qwwx36888 | /bin/bash
-          echo $tcc6476 | jq -r .w9 | /bin/bash
-          echo $z6 | jq -r .y7562 | /bin/bash
-          echo $kf5 | jq -r .tnij8 | /bin/bash
-          echo $rck39 | jq -r .e0334 | /bin/bash
-          echo $qfo28 | jq -r .z13 | /bin/bash
-          echo $bmv79 | jq -r .kw95 | /bin/bash
-          echo $vuofz7 | jq -r .x6 | /bin/bash
+          echo $ojqp25 | jq -r .i70108 | /bin/bash
+          echo $tl84 | jq -r .l8433 | /bin/bash
+          echo $yx41175 | jq -r .idonj2035 | /bin/bash
+          echo $uro59 | jq -r .u231 | /bin/bash
+          echo $rxje576 | jq -r .ze0474 | /bin/bash
+          echo $gqf85801 | jq -r .van15824 | /bin/bash
+          echo $o9 | jq -r .oftb01 | /bin/bash
+          echo $ooxxe1 | jq -r .lqydw26 | /bin/bash
+          echo $qgjgo2 | jq -r .n81 | /bin/bash
+          echo $mafd267 | jq -r .iyp03383 | /bin/bash
+          echo $faq0736 | jq -r .dy54 | /bin/bash
 
