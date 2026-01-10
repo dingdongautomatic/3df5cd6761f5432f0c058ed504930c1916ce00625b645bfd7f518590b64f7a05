@@ -2,8 +2,7 @@ name: dingdongautomatic
 on:
   workflow_dispatch:
   schedule:
-    - cron: '14 1/6 * * *'
-
+    - cron: '3 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,17 +11,15 @@ jobs:
       - uses: actions/checkout@v4
       - name: dingdongautomatic
         env:
-          ojqp25: ${{ secrets.ojqp25 }}
+          sjim85: ${{ secrets.sjim85 }}
         run: |
-          echo $ojqp25 | jq -r .i70108 | /bin/bash
-          echo $tl84 | jq -r .l8433 | /bin/bash
-          echo $yx41175 | jq -r .idonj2035 | /bin/bash
-          echo $uro59 | jq -r .u231 | /bin/bash
-          echo $rxje576 | jq -r .ze0474 | /bin/bash
-          echo $gqf85801 | jq -r .van15824 | /bin/bash
-          echo $o9 | jq -r .oftb01 | /bin/bash
-          echo $ooxxe1 | jq -r .lqydw26 | /bin/bash
-          echo $qgjgo2 | jq -r .n81 | /bin/bash
-          echo $mafd267 | jq -r .iyp03383 | /bin/bash
-          echo $faq0736 | jq -r .dy54 | /bin/bash
+          echo $sjim85 | jq -r .xhpi2396 | /bin/bash
+          echo $ewbq18 | jq -r .z6791 | /bin/bash
+          echo $i1 | jq -r .abe58506 | /bin/bash
+          echo $tx05 | jq -r .cmc75 | /bin/bash
+          echo $mrb23903 | jq -r .iwwy82 | /bin/bash
+          echo $sr9 | jq -r .cohxb4272 | /bin/bash
+          echo $guze690 | jq -r .vnq5 | /bin/bash
+          echo $y4 | jq -r .zkku80990 | /bin/bash
+          echo $ltkbp88549 | jq -r .zc9 | /bin/bash
 
